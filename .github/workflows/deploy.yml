@@ -13,8 +13,8 @@ jobs:
       IMAGE_REPO_NAME: ${{ secrets.IMAGE_REPO_NAME }}
       IMAGE_TAG: ${{ secrets.IMAGE_TAG }}
       REPOSITORY_URI: ${{ secrets.REPOSITORY_URI }}
-      # ECS_CLUSTER: ${{ secrets.ECS_CLUSTER }}
-      # ECS_SERVICE: ${{ secrets.ECS_SERVICE }}
+      ECS_CLUSTER: ${{ secrets.ECS_CLUSTER }}
+      ECS_SERVICE: ${{ secrets.ECS_SERVICE }}
 
     steps:
       - name: Checkout Repository
