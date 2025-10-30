@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-            ref: release
+            ref: main
             fetch-depth: 0
 
       - name: Configure AWS Credentials
